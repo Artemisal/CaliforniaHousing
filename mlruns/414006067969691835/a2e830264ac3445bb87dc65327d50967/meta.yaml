@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/salma/PycharmProjects/Housing/mlruns/414006067969691835/a2e830264ac3445bb87dc65327d50967/artifacts
+end_time: 1737110766692
+entry_point_name: ''
+experiment_id: '414006067969691835'
+lifecycle_stage: active
+run_id: a2e830264ac3445bb87dc65327d50967
+run_name: Random Forest Model
+run_uuid: a2e830264ac3445bb87dc65327d50967
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737110740855
+status: 3
+tags: []
+user_id: salma

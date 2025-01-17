@@ -1,0 +1,33 @@
+name: API Testing
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  lint-and-test-api:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        echo 'export PATH="$HOME/.local/bin:$PATH"' >> $GITHUB_ENV
+        source $GITHUB_ENV
+
+    - name: Install dependencies
+      run: poetry install --with dev --no-root
+
+    # Étape pour exécuter les tests de l'API
+    - name: Run API Tests
+      run: poetry run pytest tests/test_api.py

@@ -1,0 +1,4 @@
+models/random_forest_model/model.pkl filter=lfs diff=lfs merge=lfs -text
+model/random_forest_model/model.pkl filter=lfs diff=lfs merge=lfs -text
+model/random_forest/* filter=lfs diff=lfs merge=lfs -text
+model/random_forest/model.pkl filter=lfs diff=lfs merge=lfs -text

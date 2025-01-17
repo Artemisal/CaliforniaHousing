@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1737143594356
+current_stage: None
+description: null
+last_updated_timestamp: 1737143594356
+name: CaliforniaHousingRandomForest
+run_id: 024f2fbabac647f09326b605ec65ec4e
+run_link: null
+source: file:///C:/Users/salma/PycharmProjects/Housing/mlruns/273854134712038863/024f2fbabac647f09326b605ec65ec4e/artifacts/random_forest_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/salma/PycharmProjects/Housing/mlruns/273854134712038863/024f2fbabac647f09326b605ec65ec4e/artifacts/random_forest_model
+user_id: null
+version: 1

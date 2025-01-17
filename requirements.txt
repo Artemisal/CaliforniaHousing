@@ -1,0 +1,10 @@
+mlflow
+cloudpickle
+numpy
+pandas
+scikit-learn
+scipy
+uvicorn
+fastapi
+pydantic
+pytest
